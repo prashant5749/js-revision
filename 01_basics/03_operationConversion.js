@@ -15,9 +15,15 @@ let convertNum = Number(age)
 let userLoggedIn = "prashant"
 
 let converUser = Boolean(userLoggedIn)
-console.log(converUser)
+//console.log(converUser)
 
 //true => true
 //1 => true
 // "" => false
 // "prashant" => true
+
+
+//***************Operations******************* */
+let a = 5
+const b = a++
+console.log(`a: ${a}, b: ${b}`);
