@@ -19,9 +19,32 @@ let myObjects = {
 
 }
 
-console.table(myObjects);
+// console.table(myObjects);
 
 let myFun = function () {
     // console.log("myFun");
 }
+
+//***********************Stack memory and Heap memory***********************/
+
+//Stack memory used in Primitive datatypes
+let myName = "Prashant"
+let changeName = myName
+myName = "Baadal"
+
+// console.log(myName);
+// console.log(changeName);
+
+//Heap meomory used in Non-Primitive datatypes
+
+let details = {
+    userId: 345344,
+    userName: "pannoti",
+    userColor: "fair"
+}
+let detailOne = details
+detailOne.userName = "Aaaditya"
+
+console.log(details.userName);
+
 
