@@ -1,16 +1,18 @@
-const userId = "2546"
-let userEmail = "badal@gmail.com"
-let userPassword = 5555
-let userCity = "aligarh"
-let userInterest = "coding"
-let userHome;
+// *************************stack memory and heap memory********************
 
-// userId = "akashmarale@gmail.com"
-// console.table([userEmail ,userPassword ,userCity ,userInterest])
-console.log(typeof userHome)
-// String
-// Number
-// Boolean
-// undefined
-// null
-// BigInt
+
+let id = 11234
+let passWord = "ana"
+
+//console.log(`my id is ${id} my passWord is ${passWord} dekh le sab `);
+
+//let newId = new Number(1145)
+
+const namechng = new String("Baadal")
+//console.log(namechng.split("_"));
+
+const temperaTure = null
+
+console.log(typeof temperaTure);
+
+
