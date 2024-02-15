@@ -14,8 +14,8 @@ const namechng = new String("Baadal")
 // console.log(namechng.charAt(4));
 
 const lodaLehsan = "           bakchoodi-annu-baadal-loda           "
-// console.log(lodaLehsan);
-// console.log(lodaLehsan.trim());
+ //console.log(lodaLehsan);
+ //console.log(lodaLehsan.trim());
 const url = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment"
 // console.log(url.replace("/", "_"));
 // console.log(url.includes("prashant"));
