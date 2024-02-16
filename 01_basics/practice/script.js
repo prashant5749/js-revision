@@ -1,18 +1,18 @@
-// *************************stack memory and heap memory********************
+let myBalance = 365789.789
 
 
-let id = 11234
-let passWord = "ana"
 
-//console.log(`my id is ${id} my passWord is ${passWord} dekh le sab `);
-
-//let newId = new Number(1145)
-
-const namechng = new String("Baadal")
-//console.log(namechng.split("_"));
-
-const temperaTure = null
-
-console.log(typeof temperaTure);
+console.log(myBalance.toFixed(6));
+console.log(myBalance.toLocaleString("en-in"));
+console.log(myBalance.toPrecision(7));
+console.log(Math);
+console.log(Math.ceil(myBalance));
+console.log(Math.floor(myBalance));
+console.log(Math.round(myBalance));
+console.log(Math.random());
 
 
+let age = 99
+let height = 5
+
+console.log(Math.floor(Math.random()*(age-height+1)+age));
