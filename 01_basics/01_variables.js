@@ -9,7 +9,7 @@ accountEmail = "badal@gmail.com"
 accountPassword = "00000"
 accountCity = "aligarh"
 
-// console.log(accountEmail);
+console.log(accountEmail);
 // console.log(accountPassword);
 // console.log(accountCity);
 
