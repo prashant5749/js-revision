@@ -40,7 +40,19 @@ const users = [
 // console.log(Object.keys(fbUser));
 // console.log(Object.values(fbUser));
 // console.log(Object.entries(fbUser));
-console.log(fbUser.hasOwnProperty("Id"));
+// console.log(fbUser.hasOwnProperty("Id"));
+
+const details = {
+    name: "baadal",
+    mail: "hacker@gmail.com",
+    address: "southville_madagascar"
+}
+
+// details.address = "mangupur_vaasi"
+
+const {mail: mil} = details  //destructuring of objects
+console.log(mil);
+
 
 
 
