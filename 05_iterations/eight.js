@@ -32,4 +32,4 @@ const shoppingCart = [
 ]
 
 const myPrice = shoppingCart.reduce((acc, item) => acc + item.price, 0)
-console.log(myPrice);
+// console.log(myPrice);
