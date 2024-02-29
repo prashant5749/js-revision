@@ -2,7 +2,7 @@
 //1- String, 2- Number, 3- Boolean, 4- Null, 5- Undefined, 6- BigInt, 7- Symbol
 
 //Non-Primitive datatypes(reference), they are of mainly 3 types
-//1- Obejects, 2- Array, 3- Function
+//1- Objects, 2- Array, 3- Function
 
 let uniqueNumber = Symbol(33)
 let changeInSymbol = Symbol(33)
@@ -35,7 +35,7 @@ myName = "Baadal"
 // console.log(myName);
 // console.log(changeName);
 
-//Heap meomory used in Non-Primitive datatypes
+//Heap meomory used in Non-Primitive datatypes(reference)
 
 let details = {
     userId: 345344,
