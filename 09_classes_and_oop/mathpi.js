@@ -19,7 +19,7 @@ const chai = {
 
 Object.defineProperty(chai, 'name', {
     // writable: false,
-    enumerable: true
+    enumerable: true 
 })
 // const prop = Object.getOwnPropertyDescriptor(chai, 'name')
 // chai.name = 'cold tea'
