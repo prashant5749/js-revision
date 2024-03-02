@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Closure in JS</title>
+</head>
+
+<body style="background-color: #313131;">
+    <button id="orange">Orange</button>
+    <button id="blue">Blue</button>
+    <button id="neutral">Neutral</button>
+
+
+    
+</body>
+
+<script>
+    //Below is the example of lexical scoping ; 
+    //which means that outer function cannot get what is inside inner function same as 
+    //### adults can not get ice cream from children and , inner function have access to outer function same as 
+    //##### children can get ice-cream from adults
+
+    function outer() {
+        let check = 'Hello World!'
+        function inner() {
+            console.log(inner, check);
+        }
+        inner()
+    }
+
+    outer()
+    // console.log('Too Outer', check);
+</script>
+
+<script>
+    // changeColor.addEventListener('click', function(e){
+    //     document.body.style.backgroundColor = 'orange'
+    // }) //First method to do it
+    // document.getElementById('orange').onclick = function(){
+    //     document.body.style.backgroundColor = 'orange'
+    // }
+
+    // document.getElementById('blue').onclick = function(){
+    //     document.body.style.backgroundColor = 'blue'
+    // }
+    
+    // document.getElementById('neutral').onclick = function(){
+    //     document.body.style.backgroundColor = '#313131'
+    // }
+
+    function clickHandler(color){
+        // document.body.style.backgroundColor = `${color}`
+        return function(){
+        document.body.style.backgroundColor = `${color}`
+        }
+    }
+
+    document.getElementById('orange').onclick = clickHandler('orange')
+    document.getElementById('blue').onclick = clickHandler('blue')
+    document.getElementById('neutral').onclick = clickHandler('#313131')
+    
+</script>
+<script></script>
+<script></script>
+
+</html>
